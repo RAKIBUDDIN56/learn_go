@@ -11,6 +11,15 @@ func main() {
 	fmt.Println(msg)
 	animal_cow :=Animal("Cow")
 	animal_cow.PrintAnimal()
+	func (para string){
+		fmt.Println(para)
+
+	}("Parameter passed")
+myFunction :=func	(){
+		fmt.Println("My Anonymouse funtion")
+	}
+	myFunction()
+
 
 }
 func adder(val1 int, val2 int) int{
